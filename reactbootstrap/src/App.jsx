@@ -1,12 +1,21 @@
 import React from 'react'
 import { useState } from 'react'
+import Navbar from './Navbar';
+import Carousel from './Carousel';
+import Card from './Card';
 
 const App = () => {
   const [loading, setLaoding] = useState(true);
   const [error, setError] = useState(false);
   const [user, setUserData] = useState([]);
   return (
- <h1>hello world</h1>
+    <>
+<Navbar/>
+<Carousel/>
+<Card/>
+<Card/>
+
+</>
   )
 }
 
