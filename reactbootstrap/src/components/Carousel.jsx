@@ -31,7 +31,7 @@ const Carousel = () => {
 
           <div className="carousel-item active">
             <img
-              src="https://i.pinimg.com/736x/7d/b9/26/7db926d5fa093f9513f9a78834411163.jpg"
+              src="https://i.pinimg.com/736x/41/9e/ca/419eca66316fe0a5a13691db6ec99324.jpg"
               alt="slide1"
             />
           </div>
